@@ -87,6 +87,10 @@ vim.api.nvim_set_keymap(
   opts
 )
 
+-- DiffView
+keymap("n", "<space>sd", "<cmd>DiffviewOpen<CR>", opts)
+keymap("n", "<space>ud", "<cmd>DiffviewClose<CR>", opts)
+
 vim.cmd [[
   function! QuickFixToggle()
     if empty(filter(getwininfo(), 'v:val.quickfix'))

@@ -50,6 +50,7 @@ lvim.plugins = {
 
   -- Languages
   "mfussenegger/nvim-jdtls",
+  "lvimuser/lsp-inlayhints.nvim",
   "simrat39/rust-tools.nvim",
   "olexsmir/gopher.nvim",
   "leoluz/nvim-dap-go",
