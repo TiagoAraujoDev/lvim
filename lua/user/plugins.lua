@@ -3,7 +3,7 @@ lvim.plugins = {
   -- treesitter plugins
   "nvim-treesitter/playground",
   "nvim-treesitter/nvim-treesitter-textobjects",
-  "p00f/nvim-ts-rainbow",
+  -- "p00f/nvim-ts-rainbow",
   "windwp/nvim-ts-autotag",
 
   -- colorschemes
